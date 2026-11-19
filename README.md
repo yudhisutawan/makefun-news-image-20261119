@@ -6,7 +6,7 @@
 
 The World, Today — one newspaper front page summing up the world's news of Thursday 19 November 2026: GTA VI launches worldwide, the US and Iran trade fire in the Gulf, Hakeem Jeffries is set to become the first Black Speaker of the House, the EU proposes a €45bn loan for Ukraine, Nvidia chief Jensen Huang resigns, Anthropic clinches a record $81bn IPO, Voyager 1 reaches one light-day from Earth, Cyclone Akvan nears India's east coast — and 28 more stories across world, business, tech, science, sport and culture. 36 stories in one image.
 
-`main.py` writes the pre-rendered front page with the Python standard library only — no network, no clock, no randomness — so two runs write identical bytes. The image bytes are embedded in `main.py` itself, so it renders the same everywhere, including a bare Python container with no image libraries or fonts installed.
+`main.py` copies the pre-rendered front page (`entry.png`, in this repository) with the Python standard library only — no network, no clock, no randomness — so two runs write identical bytes. The program runs the same everywhere, including a bare Python container with no image libraries or fonts installed.
 
 ## Run it
 
